@@ -10,3 +10,9 @@ if (process.env.NODE_ENV === 'dev') {
 } else {
     process.env.URLDB = process.env.MONGO_URLDB
 }
+
+//TOKEN
+process.env.CADUCIDAD_TOKEN = '30d'
+
+//SEED de autenticacion
+process.env.SEED = process.env.SEED || 'seed-de-desarrollo'
